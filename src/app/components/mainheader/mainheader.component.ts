@@ -6,9 +6,10 @@ import { Notification } from '../../model/notification'
 import { observable } from 'rxjs';
 import { NotifyService } from '../../services/notify.service';
 @Component({
-  selector: 'app-mainheader',
-  templateUrl: './mainheader.component.html',
-  styleUrls: ['./mainheader.component.less']
+    selector: 'app-mainheader',
+    templateUrl: './mainheader.component.html',
+    styleUrls: ['./mainheader.component.less'],
+    standalone: false
 })
 export class MainheaderComponent implements OnInit {
   isClick: boolean;

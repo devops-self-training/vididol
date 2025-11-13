@@ -5,9 +5,10 @@ import { StarService } from '../../services/star.service';
 import { UserProfile } from '../../model/user-profile';
 import { UserRequest } from '../../model/user-request';
 @Component({
-  selector: 'app-mainpage',
-  templateUrl: './mainpage.component.html',
-  styleUrls: ['./mainpage.component.less']
+    selector: 'app-mainpage',
+    templateUrl: './mainpage.component.html',
+    styleUrls: ['./mainpage.component.less'],
+    standalone: false
 })
 export class MainpageComponent implements OnInit {
   maxChars = 500;

@@ -4,9 +4,10 @@ import { observable } from 'rxjs';
 import { CapchaService } from '../../services/capcha.service';
 import { CapChaCode } from '../../model/capcha'
 @Component({
-  selector: 'app-forget-password',
-  templateUrl: './forget-password.component.html',
-  styleUrls: ['./forget-password.component.less']
+    selector: 'app-forget-password',
+    templateUrl: './forget-password.component.html',
+    styleUrls: ['./forget-password.component.less'],
+    standalone: false
 })
 export class ForgetPasswordComponent implements OnInit {
   userEmailorPhone: string;

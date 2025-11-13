@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-request-create',
-  templateUrl: './request-create.component.html',
-  styleUrls: ['./request-create.component.less']
+    selector: 'app-request-create',
+    templateUrl: './request-create.component.html',
+    styleUrls: ['./request-create.component.less'],
+    standalone: false
 })
 export class RequestCreateComponent implements OnInit {
 
