@@ -3,9 +3,10 @@ import { StarProfile } from 'src/app/model/star-profile';
 import { StarProfileService } from 'src/app/services/star-profile.service';
 
 @Component({
-  selector: 'app-star-profile',
-  templateUrl: './star-profile.component.html',
-  styleUrls: ['./star-profile.component.less']
+    selector: 'app-star-profile',
+    templateUrl: './star-profile.component.html',
+    styleUrls: ['./star-profile.component.less'],
+    standalone: false
 })
 export class StarProfileComponent implements OnInit {
 

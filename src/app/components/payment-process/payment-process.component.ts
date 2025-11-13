@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-payment-process',
-  templateUrl: './payment-process.component.html',
-  styleUrls: ['./payment-process.component.less']
+    selector: 'app-payment-process',
+    templateUrl: './payment-process.component.html',
+    styleUrls: ['./payment-process.component.less'],
+    standalone: false
 })
 export class PaymentProcessComponent implements OnInit {
 
